@@ -13,4 +13,8 @@ class HomeController < ApplicationController
     
   end
   
+  def new_feedback
+    @feedback_message = FeedbackMessage.new
+  end
+   
 end
